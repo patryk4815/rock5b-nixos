@@ -9,7 +9,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/f2537a505d45c31fe5d9c27ea9829b6f4c4e6ac5";
     kernel-src = {
-      url = "github:radxa/kernel";
+      url = "github:radxa/kernel/linux-5.10-gen-rkr3.4";
       flake = false;
     };
     fan-control = {
